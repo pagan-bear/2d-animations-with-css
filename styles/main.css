@@ -1,0 +1,197 @@
+/** Fish tank animation
+  *
+  */
+html {
+  height: 100%;
+  border: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.fish {
+  position: absolute;
+}
+
+.fish__xl {
+  right: 0%;
+  top: 25%;
+  -webkit-animation: moveFish 60s linear 0s infinite normal both;
+          animation: moveFish 60s linear 0s infinite normal both;
+}
+
+.fish__lg {
+  right: 0%;
+  top: 70%;
+  -webkit-animation: moveFish 20s linear 0s infinite normal both;
+          animation: moveFish 20s linear 0s infinite normal both;
+}
+
+.fish__md {
+  right: 0%;
+  top: 0%;
+  -webkit-animation: moveFish 35s linear 0s infinite normal both;
+          animation: moveFish 35s linear 0s infinite normal both;
+}
+
+.fish__sm {
+  right: 0%;
+  top: 65%;
+  -webkit-animation: moveFish 25s linear 0s infinite normal both;
+          animation: moveFish 25s linear 0s infinite normal both;
+}
+
+.fish__xs {
+  right: 0%;
+  top: 15%;
+  -webkit-animation: moveFish 10s linear 0s infinite normal both;
+          animation: moveFish 10s linear 0s infinite normal both;
+}
+
+.bubble {
+  position: absolute;
+  bottom: 0;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.bubble__1 {
+  width: 10px;
+  height: 10px;
+  left: 10%;
+  background-color: cornflowerblue;
+  -webkit-animation: moveBubble 4s ease-in-out 0s infinite both;
+          animation: moveBubble 4s ease-in-out 0s infinite both;
+}
+
+.bubble__2 {
+  width: 15px;
+  height: 15px;
+  left: 20%;
+  background-color: aqua;
+  -webkit-animation: moveBubble 7s ease-in-out 0s infinite both;
+          animation: moveBubble 7s ease-in-out 0s infinite both;
+}
+
+.bubble__3 {
+  width: 25px;
+  height: 25px;
+  left: 30%;
+  background-color: powderblue;
+  -webkit-animation: moveBubble 12s ease-in-out 0s infinite both;
+          animation: moveBubble 12s ease-in-out 0s infinite both;
+}
+
+.bubble__4 {
+  width: 20px;
+  height: 20px;
+  left: 55%;
+  background-color: deepskyblue;
+  -webkit-animation: moveBubble 6s ease-in-out 0s infinite both;
+          animation: moveBubble 6s ease-in-out 0s infinite both;
+}
+
+.bubble__5 {
+  width: 30px;
+  height: 30px;
+  left: 70%;
+  background-color: lightblue;
+  -webkit-animation: moveBubble 15s ease-in-out 0s infinite both;
+          animation: moveBubble 15s ease-in-out 0s infinite both;
+}
+
+.bubble__6 {
+  width: 17px;
+  height: 17px;
+  left: 80%;
+  background-color: dodgerblue;
+  -webkit-animation: moveBubble 20s ease-in-out 0s infinite both;
+          animation: moveBubble 20s ease-in-out 0s infinite both;
+}
+
+.bubble__7 {
+  width: 35px;
+  height: 35px;
+  left: 90%;
+  background-color: cornflowerblue;
+  -webkit-animation: moveBubble 11s ease-in-out 0s infinite both;
+          animation: moveBubble 11s ease-in-out 0s infinite both;
+}
+
+.bubble__8 {
+  width: 28px;
+  height: 28px;
+  left: 42%;
+  background-color: lightblue;
+  -webkit-animation: moveBubble 14s ease-in-out 0s infinite both;
+          animation: moveBubble 14s ease-in-out 0s infinite both;
+}
+
+@-webkit-keyframes moveFish {
+  0% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  25% {
+    -webkit-transform: translateX(-900%);
+            transform: translateX(-900%);
+  }
+  50% {
+    -webkit-transform: translateX(-600%);
+            transform: translateX(-600%);
+  }
+  75% {
+    -webkit-transform: translateX(-1200%);
+            transform: translateX(-1200%);
+  }
+  100% {
+    -webkit-transform: translate(-1800%);
+            transform: translate(-1800%);
+  }
+}
+
+@keyframes moveFish {
+  0% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  25% {
+    -webkit-transform: translateX(-900%);
+            transform: translateX(-900%);
+  }
+  50% {
+    -webkit-transform: translateX(-600%);
+            transform: translateX(-600%);
+  }
+  75% {
+    -webkit-transform: translateX(-1200%);
+            transform: translateX(-1200%);
+  }
+  100% {
+    -webkit-transform: translate(-1800%);
+            transform: translate(-1800%);
+  }
+}
+
+@-webkit-keyframes moveBubble {
+  0% {
+    bottom: 0%;
+  }
+  100% {
+    bottom: 100%;
+  }
+}
+
+@keyframes moveBubble {
+  0% {
+    bottom: 0%;
+  }
+  100% {
+    bottom: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,78 @@
+/*
+  * Keyframe animations
+  * 1. Create keyframes
+  */
+@-webkit-keyframes changeWidthHeight {
+  0% {
+    background-color: lightblue;
+    width: 150px;
+    height: 50px;
+  }
+  25% {
+    background-color: cornflowerblue;
+    width: 150px;
+    height: 50px;
+  }
+  50% {
+    background-color: darkblue;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 5px solid red;
+  }
+  75% {
+    background-color: cornflowerblue;
+    width: 150px;
+    height: 50px;
+  }
+  100% {
+    background-color: lightblue;
+    width: 150px;
+    height: 50px;
+  }
+}
+@keyframes changeWidthHeight {
+  0% {
+    background-color: lightblue;
+    width: 150px;
+    height: 50px;
+  }
+  25% {
+    background-color: cornflowerblue;
+    width: 150px;
+    height: 50px;
+  }
+  50% {
+    background-color: darkblue;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 5px solid red;
+  }
+  75% {
+    background-color: cornflowerblue;
+    width: 150px;
+    height: 50px;
+  }
+  100% {
+    background-color: lightblue;
+    width: 150px;
+    height: 50px;
+  }
+}
+
+button {
+  display: block;
+  width: 150px;
+  height: 50px;
+  background-color: lightblue;
+  border: 1px solid black;
+  margin: 10px;
+  -webkit-animation-name: changeWidthHeight;
+          animation-name: changeWidthHeight;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: 3;
+          animation-iteration-count: 3;
+}
+/*# sourceMappingURL=chpt4.css.map */

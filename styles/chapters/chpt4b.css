@@ -1,0 +1,123 @@
+/** Keyframe animations
+  * Project 1 - Moving ball
+  *
+  */
+#box {
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  margin: 100px auto;
+}
+
+#box--ball {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background-color: antiquewhite;
+  border: 1px solid maroon;
+  border-radius: 50%;
+  -webkit-animation: movingBall 5s linear 2 normal both, ballBackgroundColor 5s ease infinite normal both;
+          animation: movingBall 5s linear 2 normal both, ballBackgroundColor 5s ease infinite normal both;
+}
+
+#box--ball:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@-webkit-keyframes movingBall {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    top: 0;
+    left: 400px;
+  }
+  50% {
+    top: 400px;
+    left: 400px;
+  }
+  75% {
+    top: 400px;
+    left: 0px;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
+
+@keyframes movingBall {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    top: 0;
+    left: 400px;
+  }
+  50% {
+    top: 400px;
+    left: 400px;
+  }
+  75% {
+    top: 400px;
+    left: 0px;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
+
+@-webkit-keyframes ballBackgroundColor {
+  0% {
+    background-color: red;
+    width: 10px;
+    height: 10px;
+  }
+  25% {
+    background-color: blue;
+  }
+  50% {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+  }
+  75% {
+    background-color: blue;
+  }
+  100% {
+    background-color: red;
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@keyframes ballBackgroundColor {
+  0% {
+    background-color: red;
+    width: 10px;
+    height: 10px;
+  }
+  25% {
+    background-color: blue;
+  }
+  50% {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+  }
+  75% {
+    background-color: blue;
+  }
+  100% {
+    background-color: red;
+    width: 10px;
+    height: 10px;
+  }
+}
+/*# sourceMappingURL=chpt4b.css.map */

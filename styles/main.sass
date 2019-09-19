@@ -1,0 +1,116 @@
+/** Fish tank animation
+  *
+  */
+
+html
+  height: 100%
+  border: 0
+  margin: 0
+
+body
+  background-image: url('../images/background.jpg')
+  background-repeat: no-repeat
+  background-size: 100% 100%
+
+.fish
+  position: absolute
+
+  &__xl
+    right: 0%
+    top: 25%
+    animation: moveFish 60s linear 0s infinite normal both
+
+  &__lg
+    right: 0%
+    top: 70%
+    animation: moveFish 20s linear 0s infinite normal both
+
+  &__md
+    right: 0%
+    top: 0%
+    animation: moveFish 35s linear 0s infinite normal both
+
+  &__sm
+    right: 0%
+    top: 65%
+    animation: moveFish 25s linear 0s infinite normal both
+
+  &__xs
+    right: 0%
+    top: 15%
+    animation: moveFish 10s linear 0s infinite normal both
+
+.bubble
+  position: absolute
+  bottom: 0
+  border: 1px solid black
+  border-radius: 50%
+  &__1
+    width: 10px
+    height: 10px
+    left: 10%
+    background-color: cornflowerblue
+    animation: moveBubble 4s ease-in-out 0s infinite both
+  &__2
+    width: 15px
+    height: 15px
+    left: 20%
+    background-color: aqua
+    animation: moveBubble 7s ease-in-out 0s infinite both
+  &__3
+    width: 25px
+    height: 25px
+    left: 30%
+    background-color: powderblue
+    animation: moveBubble 12s ease-in-out 0s infinite both
+  &__4
+    width: 20px
+    height: 20px
+    left: 55%
+    background-color: deepskyblue
+    animation: moveBubble 6s ease-in-out 0s infinite both
+  &__5
+    width: 30px
+    height: 30px
+    left: 70%
+    background-color: lightblue
+    animation: moveBubble 15s ease-in-out 0s infinite both
+  &__6
+    width: 17px
+    height: 17px
+    left: 80%
+    background-color: dodgerblue
+    animation: moveBubble 20s ease-in-out 0s infinite both
+
+  &__7
+    width: 35px
+    height: 35px
+    left: 90%
+    background-color: cornflowerblue
+    animation: moveBubble 11s ease-in-out 0s infinite both
+  
+  &__8
+    width: 28px
+    height: 28px
+    left: 42%
+    background-color: lightblue
+    animation: moveBubble 14s ease-in-out 0s infinite both
+
+@keyframes moveFish
+  0%
+    transform: translateX(0%)
+  25%
+    transform: translateX(-900%)
+  50%
+    transform: translateX(-600%)
+  75%
+    transform: translateX(-1200%)
+  100%
+    transform: translate(-1800%)
+
+@keyframes moveBubble
+  0%
+    bottom: 0%
+
+  100%
+    bottom: 100%
