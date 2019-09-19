@@ -1,6 +1,6 @@
 # 2D Animations with CSS3
- Simple 2D CSS3 Animation
- ## Keywords
+## Simple 2D CSS3 Animation
+### Keywords
 **CSS3**
 
 **HTML5**
@@ -13,7 +13,7 @@
 
 **transitions**: 
 
-**transform**: [property]: [value]
+**transform**: [property]([value], [value], ...)
 
 ---
 
