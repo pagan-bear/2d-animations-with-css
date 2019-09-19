@@ -12,9 +12,11 @@
 ---
 
 - transform: translate(x, y) [px], [em], [rem], [%], [vw], [vh])
+
 *transform: translate(50px, 25px)*
 
 - transform: scale(x, y) [n], [n]
+
 *transform: scale(2, 1.5)*
 
 - transform: rotate(xDeg, yDeg) [deg], [grad], [rad], [turn])
