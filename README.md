@@ -19,21 +19,24 @@
 
 **transform: translate(x, y)**
 ---
-[px], [em], [rem], [%], [vw], [vh])
+x, y: [px], [em], [rem], [%], [vw], [vh]
 > E.g., transform: translate(50px, 25px)
 
-**transform: scale(x, y) [n], [n]**
+**transform: scale(x, y)**
 ---
+x, y: [n], [n]
 > transform: scale(2, 1.5)
 
-**transform: rotate(xDeg, yDeg) [deg], [grad], [rad], [turn])**
+**transform: rotate(xDeg, yDeg)**
 ---
+xDeg, yDeg: [deg], [grad], [rad], [turn]
 > transform:rotate(30deg, 45deg)
 
-**transform: skew(xDeg, yDeg) [deg], [grad], [rad]**
+**transform: skew(xDeg, yDeg)**
 ---
+xDeg, yDeg: [deg], [grad], [rad]
 > transform: skew(45deg, 0)
 
-**transform: matrix([scaleX], [skewY], [skewX], [scaleY], [translateX], [translateY])**
+**transform: matrix([scaleX(x<sub>1</sub>)], [skewY(y)], [skewX(x)], [scaleY(y)], [translateX(x)], [translateY](y))**
 ---
 > transform: translate(100px, 50px) rotate(-25deg, 30deg) scale(1.5, 0.5) skew(25deg 30deg)
