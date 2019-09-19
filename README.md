@@ -39,7 +39,7 @@ xDeg, yDeg: [deg], [grad], [rad]
 ---
 Applying scale, skew, translate transforms can be replaced using the matrix() transform.
 
-**transform: matrix([scaleX(x<sub>1</sub>)], [skewY(y<sub>2</sub>)], [skewX(y<sub>2</sub>)], [scaleY(<sub>y1</sub>)], [translateX(x<sub>3</sub>)], [translateY(y<sub>3</sub>)])**
+*transform: matrix([scaleX(x<sub>1</sub>)], [skewY(y<sub>2</sub>)], [skewX(y<sub>2</sub>)], [scaleY(<sub>y1</sub>)], [translateX(x<sub>3</sub>)], [translateY(y<sub>3</sub>)])*
 ---
 If you need to apply multiple transforms including the **rotate()** transform, specify each one individually:
 > transform: translate(100px, 50px) rotate(-25deg, 30deg) scale(1.5, 0.5) skew(25deg 30deg)
