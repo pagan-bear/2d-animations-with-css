@@ -20,12 +20,12 @@
 **transform: translate(x, y)**
 ---
 x, y: [px], [em], [rem], [%], [vw], [vh]
-> E.g., transform: translate(50px, 25px)
+> E.g., `transform: translate(50px, 25px)`
 
 **transform: scale(x, y)**
 ---
 x, y: [n], [n]
-> transform: scale(2, 1.5)
+> E.g., `transform: scale(2, 1.5)`
 
 **transform: rotate(xDeg, yDeg)**
 ---
