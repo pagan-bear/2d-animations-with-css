@@ -11,19 +11,19 @@
 **transform**: [property]: [value]
 ---
 
-- transform: translate(x, y) [px], [em], [rem], [%], [vw], [vh])
+*transform: translate(x, y) [px], [em], [rem], [%], [vw], [vh])
 
-*transform: translate(50px, 25px)*
+- transform: translate(50px, 25px)*
 
-- transform: scale(x, y) [n], [n]
+*transform: scale(x, y) [n], [n]
 
-*transform: scale(2, 1.5)*
+- transform: scale(2, 1.5)*
 
-- transform: rotate(xDeg, yDeg) [deg], [grad], [rad], [turn])
-*transform:rotate(30deg, 45deg)*
+*transform: rotate(xDeg, yDeg) [deg], [grad], [rad], [turn])
+- transform:rotate(30deg, 45deg)*
 
-- transform: skew(xDeg, yDeg) [deg], [grad], [rad]
-*transform: skew(45deg, 0)*
+*transform: skew(xDeg, yDeg) [deg], [grad], [rad]
+- transform: skew(45deg, 0)*
 
-- transform: matrix([scaleX], [skewY], [skewX], [scaleY], [translateX], [translateY])
-*transform: translate(x, y) rotate(xDeg, yDeg) scale(x, y) skew(xDeg yDeg)*
+*transform: matrix([scaleX], [skewY], [skewX], [scaleY], [translateX], [translateY])
+- transform: translate(x, y) rotate(xDeg, yDeg) scale(x, y) skew(xDeg yDeg)*
