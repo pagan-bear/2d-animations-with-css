@@ -12,7 +12,6 @@
 ---
 
 *transform: translate(x, y) [px], [em], [rem], [%], [vw], [vh])*
-
 > E.g., transform: translate(50px, 25px)
 
 *transform: scale(x, y) [n], [n]*
